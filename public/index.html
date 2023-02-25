@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <nav id="navbar">
+        <h1>Home</h1>
+        <h1 id="display-inventory">Display Inventory </h1>
+        <!-- <h1 id="list-link">Inventory List</h1> --> 
+    </nav>
+    
+    <div id="container">
+        <p id="upload-status"></p>
+        <div class="input-container">
+            <label for="price-input">Price</label>
+            <input type="number" id="price-input"/>
+        </div>
+        <div class="input-container">
+            <label for="inv-amt-input">Inventory Amount</label>
+            <input type="number" id="inv-amt-input"/>
+        </div>
+        <div class="input-container">
+            <label for="delivery-date-input">Next Delivery Date</label>
+            <input type="text" id="delivery-date-input"/>
+        </div>
+        <div class="input-container">
+            <label for="delivery-amt-input">Delivery Amount</label>
+            <input type="number" id="delivery-amt-input"/>
+        </div>
+        <div class="input-container">
+            <label for="name-input">Name</label>
+            <input type="text" id="name-input"/>
+        </div>
+        
+        <button id="submit-button">Create Item</button>
+    </div>
+</body>
+</html>
