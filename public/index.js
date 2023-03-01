@@ -57,7 +57,7 @@ let uploadStatusTag = document.getElementById('upload-status');
 
 })
 
-//add function to go to display item
+//add function to go to display all item
 document.getElementById('display-inventory').addEventListener('click', () => {
     window.location.href = '/display_items'
 })
